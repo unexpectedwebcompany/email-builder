@@ -8,7 +8,6 @@ const Builder = props => {
   const [editor, setEditor] = useState(null);
 
   useEffect(() => {
-    console.log(grapesjs);
     const editor = grapesjs.init({
       // Indicate where to init the editor. You can also pass an HTMLElement
       container: "#builder",
